@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap');
+html{
+    font-family: 'Dongle', sans-serif; 
+    background-image: url(/img/wallpaper.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.content{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    height: 700px;
+    border-radius: 4px;
+    box-shadow: 15px 13px 29px 5px rgba(150, 11, 131, 0.6);
+}
+
+h1.title{
+    font-size: 50px;
+    font-weight:590;
+}
