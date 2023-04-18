@@ -9,13 +9,13 @@ $(function() {
             $("#inputCorreu").css("box-shadow", "0px 0px 49px -6px rgba(150, 11, 131, 0.6)");
         }
     })
-    
-    if($("#iniciarSesioButton").hover()){
+
         $("#iniciarSesioButton").hover(function () {
             $("#crearCompteRedirect").css("animation","shake 0.5s");
             $("#crearCompteRedirect").css("animation-iteration-count","3");
         })
-    }
+    
+
 
   
 
