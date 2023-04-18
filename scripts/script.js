@@ -10,10 +10,10 @@ $(function() {
         }
     })
 
-        $("#iniciarSesioButton").hover(function () {
-            $("#crearCompteRedirect").css("animation","shake 0.5s");
-            $("#crearCompteRedirect").css("animation-iteration-count","3");
-        })
+    $("#iniciarSesioButton").hover(function () {
+        $("#crearCompteRedirect").css("animation","shake 0.5s");
+        $("#crearCompteRedirect").css("animation-iteration-count","3");
+    })
     
 
 
