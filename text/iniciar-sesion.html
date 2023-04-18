@@ -7,7 +7,8 @@
     <title>Iniciar sesion</title>
     <link rel="stylesheet" href="/styles/global.css">
     <link rel="stylesheet" href="/styles/iniciar-sesion.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="/scripts/script.js"></script>
 </head>
 <body>
     <div class="content">
@@ -15,10 +16,14 @@
         <h2 id="correu">Correu electronic</h2>
         <input id="inputCorreu" type="text" placeholder="exemple@gmail.com">
         <h2 id="contra">Correu electronic</h2>
-        <input id="inputContra" type="text" placeholder="Contrasenya"> 
+        <input id="inputContra" type="password" placeholder="Contrasenya"> 
         <br>
-        <button id="iniciarSesioButton">Iniciar Sesio</button>      
-
+        <button id="iniciarSesioButton">Iniciar Sesio</button>
+        <br>
+        <div id="footer">
+            <button id="crearCompteRedirect">Crear Compte</button>
+        </div>
+             
     </div>
 </body>
 </html>
