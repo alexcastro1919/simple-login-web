@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
 html{
-    font-family: 'Dongle', sans-serif; 
     background-image: url(/img/wallpaper.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
 div.content{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.082);
     text-align: center;
     margin: auto;
     width: 40%;
     height: 700px;
     border-radius: 4px;
-    box-shadow: 15px 13px 29px 5px rgba(150, 11, 131, 0.6);
+    box-shadow: 0px 0px 26px -1px  rgba(255, 255, 255, 0.6);
 }
 
 h1.title{
@@ -21,3 +27,4 @@ h1.title{
     font-weight:bold;
     padding-top: 5%;
 }
+

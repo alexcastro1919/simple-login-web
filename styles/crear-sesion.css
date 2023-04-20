@@ -1,0 +1,95 @@
+#correu{
+    margin-bottom: 1%;
+    padding-bottom: 0%;
+    font-size: 30px;
+}
+
+#inputCorreu{
+    text-align: center;
+    height: 4%;
+    width: 50%;
+    font-size: medium;
+    border-radius: 5px;
+    border: unset;
+    box-shadow: 0px 0px 49px -6px rgba(255, 255, 255, 0.6);
+}
+
+#contra{
+    margin-bottom: 1%;
+    padding-top: 4%;
+    padding-bottom: 0%;
+    font-size: 30px;
+}
+
+#inputContra{
+    text-align: center;
+    height: 4%;
+    width: 50%;
+    font-size: medium;
+    border-radius: 5px;
+    border: unset;
+    box-shadow: 0px 0px 49px -6px rgba(255, 255, 255, 0.6);
+}
+
+#contraRepit{
+    margin-bottom: 1%;
+    padding-top: 4%;
+    padding-bottom: 0%;
+    font-size: 30px; 
+}
+
+#inputContraRepit{
+    text-align: center;
+    height: 4%;
+    width: 50%;
+    font-size: medium;
+    border-radius: 5px;
+    border: unset;
+    box-shadow: 0px 0px 49px -6px rgba(255, 255, 255, 0.6);
+}
+
+#crearButton{
+    margin-top: 8%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-style: unset;
+    border-radius: 4px;
+    height: 7%;
+    width: 40%;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+#crearButton:hover {
+    transform: scale(1.1);
+    
+  }
+
+
+  #iniciarSesioRedirect{
+    font-size: 25px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: unset;
+}
+
+@keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    75% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  

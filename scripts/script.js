@@ -1,12 +1,14 @@
 $(function() {
-    $("html").hover(function() {
+    $(document).keydown(function (e) { 
+        
+   
         var correu =  $("#inputCorreu").val()
 
         if (correu.includes("@")){
             $("#inputCorreu").css("box-shadow", "0px 0px 49px -6px rgba(23, 150, 11, 0.678)");
         }
         else{
-            $("#inputCorreu").css("box-shadow", "0px 0px 49px -6px rgba(150, 11, 131, 0.6)");
+            $("#inputCorreu").css("box-shadow", "0px 0px 49px -6px rgba(255, 255, 255, 0.6)");
         }
     })
 
@@ -14,7 +16,19 @@ $(function() {
         $("#crearCompteRedirect").css("animation","shake 0.5s");
         $("#crearCompteRedirect").css("animation-iteration-count","3");
     })
+
+    $("#crearButton").hover(function () {
+        $("#iniciarSesioRedirect").css("animation","shake 0.5s");
+        $("#iniciarSesioRedirect").css("animation-iteration-count","3");
+    })
     
+    $('#crearCompteRedirect').click(function(){
+        window.location.href='/text/crear-sesion.html';
+     })
+
+     $('#iniciarSesioRedirect').click(function(){
+        window.location.href='/text/iniciar-sesion.html';
+     })
 
 
   
@@ -30,7 +44,7 @@ $(function() {
         const user = await getUserFromCookie()
         console.log(user)
     })
-
+    
     async function register(email, password, name, lastName) {
         const payload = {
             email: email,
@@ -107,7 +121,7 @@ $(function() {
           }
         }
         return "";
-      }
+    }
 })
 
 

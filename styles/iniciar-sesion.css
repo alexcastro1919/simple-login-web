@@ -11,7 +11,7 @@
     font-size: medium;
     border-radius: 5px;
     border: unset;
-    box-shadow: 0px 0px 49px -6px rgba(150, 11, 131, 0.6);
+    box-shadow: 0px 0px 49px -6px rgba(255, 255, 255, 0.6);
 }
 
 #contra{
@@ -28,12 +28,12 @@
     font-size: medium;
     border-radius: 5px;
     border: unset;
-    box-shadow: 0px 0px 49px -6px rgba(150, 11, 131, 0.6);
+    box-shadow: 0px 0px 49px -6px rgba(255, 255, 255, 0.6);
 }
 
 #iniciarSesioButton{
     margin-top: 10%;
-    background-color: rgba(150, 11, 131, 0.6);
+    background-color: rgba(255, 255, 255, 0.6);
     border-style: unset;
     border-radius: 4px;
     height: 7%;
@@ -46,7 +46,7 @@
 
 #iniciarSesioButton:hover {
     transform: scale(1.1);
-    box-shadow: 0px 0px 49px -6px rgba(150, 11, 131, 0.6);
+    
   }
 
 #footer{
@@ -55,7 +55,8 @@
 
 #crearCompteRedirect{
     font-size: 25px;
-    background-color: white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
     border: unset;
 }
 
