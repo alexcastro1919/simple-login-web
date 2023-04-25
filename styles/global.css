@@ -5,15 +5,13 @@
   font-family: 'Poppins', sans-serif;
 }
 
-html{
-    background-image: url(/img/wallpaper.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+html {
+    background-color: rgb(29, 33, 66);
+    color: rgb(255, 255, 255);
 }
 
 div.content{
-    background-color: rgba(255, 255, 255, 0.082);
+    background-color: rgba(255, 255, 255, 0);
     text-align: center;
     margin: auto;
     width: 40%;

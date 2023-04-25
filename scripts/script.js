@@ -7,9 +7,8 @@ $(function() {
         if (correu.includes("@")){
             $("#inputCorreu").css("box-shadow", "0px 0px 49px -6px rgba(23, 150, 11, 0.678)");
         }
-        else{
-            $("#inputCorreu").css("box-shadow", "0px 0px 49px -6px rgba(255, 255, 255, 0.6)");
-        }
+       
+        
     })
 
     $("#iniciarSesioButton").hover(function () {
@@ -30,8 +29,28 @@ $(function() {
         window.location.href='/text/iniciar-sesion.html';
      })
 
+     $("#inputContraRepit").keydown(function (e) { 
+        if ($("#inputContra").val()===$("#inputContraRepit").val()){
+            $("#inputContra").css("box-shadow", "0px 0px 22px 9px rgba(16,201,59,1)");
+            $("#inputContraRepit").css("box-shadow", "0px 0px 22px 9px rgba(16,201,59,1)");  
+        }
+    })
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     $("#iniciarSesioButton").click(async function() {
         var correu =  $("#inputCorreu").val()
