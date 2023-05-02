@@ -43,3 +43,10 @@ button {
 button:hover {
     transform: scale(1.1);
 }
+
+.logo{
+    margin-top: 0;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+}
