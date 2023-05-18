@@ -1,0 +1,53 @@
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    position: fixed;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    margin-top: 0;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+}
+
+/* Este boton contiene una animacion que transforma su escala*/
+#close-session {
+    background-color: #232c5a;
+    margin-top: 1rem;
+    border-style: unset;
+    border-radius: 4px;
+    height: 7%;
+    width: 20%;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    transition: transform .2s; 
+}
+
+/* Esta es la condicon para que la animacion se ejecute en este caso es que el raton este encima del raton*/
+#close-session:hover {
+    transform: scale(1.2); 
+}
+
+#welcome-title{
+    background-color: #232c5a;
+    border-radius: 4px;
+
+}

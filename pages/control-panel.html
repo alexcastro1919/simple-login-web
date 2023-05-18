@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simple Login</title>
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/control-panel.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="/scripts/control-panel.js" type="module"></script>
+    <script src="/scripts/script.js" type="module"></script>
+
 </head>
-<body>
-    <h1>Panell de control<h1/>
+<header>
+    <img id="logoHeader" src="/img/Logo-White.svg" alt="" srcset="">
+</header>
+<body >
+    <div class="main">
+        <img src="/img/Logo-White.svg" alt="Logo" class="logo">
+        <h1>Panell de control</h1>
+        <h2 id="welcome-title">Benvingut, %name%</h2>
+        <button  id="close-session">Tancar Sessió</button>
+    </div>
 </body>
 </html>
